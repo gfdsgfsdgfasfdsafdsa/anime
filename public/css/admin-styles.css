@@ -1,0 +1,38 @@
+
+.actions{
+    display: flex;
+}
+/* multiple select style */
+.custom-select:before{
+    content: '\f107';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    font-size: 20px;
+}
+.custom-select{
+    width: 100%;
+    display: flex;
+    background: none;
+}
+.multiselect-native-select{
+    width: 100%;
+}
+.dropdown-item.active{
+    color: black;
+    background-color: #fff;
+}
+.multiselect-container{
+    width: 100%;
+    max-height:250px;
+    overflow:auto;
+}
+.custom-select:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 19, 98, 0.10);
+}
+/* */
+#rm-more_0{
+    font-size: 0.9rem !important;
+    color: blue;
+}
